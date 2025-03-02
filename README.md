@@ -8,5 +8,11 @@ SecureFileX是一个高效安全的文件传输系统，能够确保文件的机
 - 安全性：机密性、完整性、不可否认性、抗密钥托管、抗中间人攻击、抗重放攻击。
 
 ## 安装指南
-- git clone https://github.com/username/my-awesome-project.git
+1、克隆仓库：git clone https://github.com/Lemeida/SecureFileX/blob/main/clientx.go
+2、运行方式：go run clientx.go
+3、依赖项：确保启用 go mod tidy
+
+
+             
+
 
