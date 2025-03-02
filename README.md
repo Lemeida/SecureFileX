@@ -12,7 +12,6 @@ SecureFileX是一个高效安全的文件传输系统，能够确保文件的机
 2、运行方式：go run clientx.go
 3、依赖项：确保启用 go mod tidy
 
-
-             
-
-
+## 系统运行说明
+- 运行clientx.go，用户界面中的Mode按钮可切换发送端/接收端身份;
+- 用户在注册时，系统私发给用户与port绑定的ppk，相当于常用的ID和Password，身份验证正确的用户方可进行文件传输；
